@@ -1,10 +1,10 @@
 {
   "name": "react-map-gl-alt",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A React wrapper for Mapbox-GL-JS",
   "main": "index.js",
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config example/webpack.config.js --host 0.0.0.0 --port 8080 --open",
@@ -37,7 +37,7 @@
     "immutable": "^3.8.1",
     "lodash.has": "^4.5.2",
     "lodash.isequal": "^4.4.0",
-    "mapbox-gl": "^0.32.1",
+    "mapbox-gl": "^0.41.0",
     "mapbox-gl-style-spec": "^8.11.0",
     "react": "^15.0.0"
   },
